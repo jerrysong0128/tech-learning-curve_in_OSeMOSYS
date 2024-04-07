@@ -1,0 +1,2847 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="Demand" attr.type="double" />
+  <key id="d10" for="edge" attr.name="xlabel" attr.type="string" />
+  <key id="d9" for="edge" attr.name="ouput_ratio" attr.type="double" />
+  <key id="d8" for="edge" attr.name="emission_ratio" attr.type="double" />
+  <key id="d7" for="edge" attr.name="input_ratio" attr.type="double" />
+  <key id="d6" for="edge" attr.name="dir" attr.type="string" />
+  <key id="d5" for="edge" attr.name="output_ratio" attr.type="double" />
+  <key id="d4" for="node" attr.name="label" attr.type="string" />
+  <key id="d3" for="node" attr.name="style" attr.type="string" />
+  <key id="d2" for="node" attr.name="shape" attr.type="string" />
+  <key id="d1" for="node" attr.name="fillcolor" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="BACKSTOP">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">BACKSTOP</data>
+    </node>
+    <node id="BESS_TECH">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">BESS_TECH</data>
+    </node>
+    <node id="DEMCOMELC">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">DEMCOMELC</data>
+    </node>
+    <node id="DEMINDELC">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">DEMINDELC</data>
+    </node>
+    <node id="DEMRESELC">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">DEMRESELC</data>
+    </node>
+    <node id="EXPELC">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">EXPELC</data>
+    </node>
+    <node id="IMPBIO">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPBIO</data>
+    </node>
+    <node id="IMPCOA">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPCOA</data>
+    </node>
+    <node id="IMPELC001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPELC001</data>
+    </node>
+    <node id="IMPELC002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPELC002</data>
+    </node>
+    <node id="IMPHFOMOM">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPHFOMOM</data>
+    </node>
+    <node id="IMPHFONAI">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPHFONAI</data>
+    </node>
+    <node id="IMPLFOELD">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPLFOELD</data>
+    </node>
+    <node id="IMPNGS">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPNGS</data>
+    </node>
+    <node id="IMPURN">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPURN</data>
+    </node>
+    <node id="MINBIO">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">MINBIO</data>
+    </node>
+    <node id="MINCOA">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">MINCOA</data>
+    </node>
+    <node id="MINGEO">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">MINGEO</data>
+    </node>
+    <node id="MINHYD">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">MINHYD</data>
+    </node>
+    <node id="MINSOL">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">MINSOL</data>
+    </node>
+    <node id="MINWND">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">MINWND</data>
+    </node>
+    <node id="PWRBIO001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRBIO001</data>
+    </node>
+    <node id="PWRCOA001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRCOA001</data>
+    </node>
+    <node id="PWRCOA002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRCOA002</data>
+    </node>
+    <node id="PWRCOA003">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRCOA003</data>
+    </node>
+    <node id="PWRDIST">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRDIST</data>
+    </node>
+    <node id="PWRGEO001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO001</data>
+    </node>
+    <node id="PWRGEO002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO002</data>
+    </node>
+    <node id="PWRGEO003">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO003</data>
+    </node>
+    <node id="PWRGEO004">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO004</data>
+    </node>
+    <node id="PWRGEO005">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO005</data>
+    </node>
+    <node id="PWRGEO006">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO006</data>
+    </node>
+    <node id="PWRGEO007">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO007</data>
+    </node>
+    <node id="PWRGEO008">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO008</data>
+    </node>
+    <node id="PWRGEO009">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO009</data>
+    </node>
+    <node id="PWRGEO010">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO010</data>
+    </node>
+    <node id="PWRGEO011">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO011</data>
+    </node>
+    <node id="PWRGEO012">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO012</data>
+    </node>
+    <node id="PWRGEO013">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO013</data>
+    </node>
+    <node id="PWRGEO014">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO014</data>
+    </node>
+    <node id="PWRGEO015">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO015</data>
+    </node>
+    <node id="PWRGEO016">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO016</data>
+    </node>
+    <node id="PWRGEO017">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO017</data>
+    </node>
+    <node id="PWRGEO018">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO018</data>
+    </node>
+    <node id="PWRGEO019">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO019</data>
+    </node>
+    <node id="PWRGEO020">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO020</data>
+    </node>
+    <node id="PWRGEO021">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO021</data>
+    </node>
+    <node id="PWRGEO022">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO022</data>
+    </node>
+    <node id="PWRGEO023">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO023</data>
+    </node>
+    <node id="PWRGEO024">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO024</data>
+    </node>
+    <node id="PWRGEO025">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO025</data>
+    </node>
+    <node id="PWRGEO026">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO026</data>
+    </node>
+    <node id="PWRGEO027">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO027</data>
+    </node>
+    <node id="PWRGEO028">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO028</data>
+    </node>
+    <node id="PWRGEO029">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO029</data>
+    </node>
+    <node id="PWRGEO030">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO030</data>
+    </node>
+    <node id="PWRGEO031">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO031</data>
+    </node>
+    <node id="PWRGEO032">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO032</data>
+    </node>
+    <node id="PWRGEO033">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO033</data>
+    </node>
+    <node id="PWRGEO034">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO034</data>
+    </node>
+    <node id="PWRGEO035">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO035</data>
+    </node>
+    <node id="PWRGEO036">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO036</data>
+    </node>
+    <node id="PWRGEO037">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO037</data>
+    </node>
+    <node id="PWRGEO038">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO038</data>
+    </node>
+    <node id="PWRGEO039">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO039</data>
+    </node>
+    <node id="PWRGEO040">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO040</data>
+    </node>
+    <node id="PWRGEO041">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO041</data>
+    </node>
+    <node id="PWRGEO042">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO042</data>
+    </node>
+    <node id="PWRGEO043">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO043</data>
+    </node>
+    <node id="PWRGEO044">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO044</data>
+    </node>
+    <node id="PWRGEO045">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO045</data>
+    </node>
+    <node id="PWRGEO046">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO046</data>
+    </node>
+    <node id="PWRGEO047">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO047</data>
+    </node>
+    <node id="PWRGEO048">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO048</data>
+    </node>
+    <node id="PWRGEO049">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO049</data>
+    </node>
+    <node id="PWRGEO050">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO050</data>
+    </node>
+    <node id="PWRGEO051">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO051</data>
+    </node>
+    <node id="PWRGEO101">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO101</data>
+    </node>
+    <node id="PWRGEO102">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRGEO102</data>
+    </node>
+    <node id="PWRHFO001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHFO001</data>
+    </node>
+    <node id="PWRHFO002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHFO002</data>
+    </node>
+    <node id="PWRHFO003">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHFO003</data>
+    </node>
+    <node id="PWRHFO004">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHFO004</data>
+    </node>
+    <node id="PWRHFO005">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHFO005</data>
+    </node>
+    <node id="PWRHFO006">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHFO006</data>
+    </node>
+    <node id="PWRHFO007">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHFO007</data>
+    </node>
+    <node id="PWRHFO008">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHFO008</data>
+    </node>
+    <node id="PWRHFO009">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHFO009</data>
+    </node>
+    <node id="PWRHYD001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD001</data>
+    </node>
+    <node id="PWRHYD002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD002</data>
+    </node>
+    <node id="PWRHYD003">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD003</data>
+    </node>
+    <node id="PWRHYD004">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD004</data>
+    </node>
+    <node id="PWRHYD005">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD005</data>
+    </node>
+    <node id="PWRHYD006">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD006</data>
+    </node>
+    <node id="PWRHYD007">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD007</data>
+    </node>
+    <node id="PWRHYD008">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD008</data>
+    </node>
+    <node id="PWRHYD009">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD009</data>
+    </node>
+    <node id="PWRHYD010">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD010</data>
+    </node>
+    <node id="PWRHYD011">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD011</data>
+    </node>
+    <node id="PWRHYD012">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD012</data>
+    </node>
+    <node id="PWRHYD013">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD013</data>
+    </node>
+    <node id="PWRHYD014">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD014</data>
+    </node>
+    <node id="PWRHYD015">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD015</data>
+    </node>
+    <node id="PWRHYD016">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD016</data>
+    </node>
+    <node id="PWRHYD101">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRHYD101</data>
+    </node>
+    <node id="PWRLFO001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRLFO001</data>
+    </node>
+    <node id="PWRLFO002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRLFO002</data>
+    </node>
+    <node id="PWRLFO003">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRLFO003</data>
+    </node>
+    <node id="PWRNGS001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS001</data>
+    </node>
+    <node id="PWRNGS002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS002</data>
+    </node>
+    <node id="PWRNGS003">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS003</data>
+    </node>
+    <node id="PWRNGS004">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS004</data>
+    </node>
+    <node id="PWRNGS005">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS005</data>
+    </node>
+    <node id="PWRNGS006">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS006</data>
+    </node>
+    <node id="PWRNGS007">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS007</data>
+    </node>
+    <node id="PWRNGS008">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS008</data>
+    </node>
+    <node id="PWRNGS009">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS009</data>
+    </node>
+    <node id="PWRNGS010">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS010</data>
+    </node>
+    <node id="PWRNGS011">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS011</data>
+    </node>
+    <node id="PWRNGS012">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS012</data>
+    </node>
+    <node id="PWRNGS013">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS013</data>
+    </node>
+    <node id="PWRNGS014">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS014</data>
+    </node>
+    <node id="PWRNGS015">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS015</data>
+    </node>
+    <node id="PWRNGS016">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS016</data>
+    </node>
+    <node id="PWRNGS017">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS017</data>
+    </node>
+    <node id="PWRNGS018">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRNGS018</data>
+    </node>
+    <node id="PWRPHS001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRPHS001</data>
+    </node>
+    <node id="PWRPHS002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRPHS002</data>
+    </node>
+    <node id="PWRSOL001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL001</data>
+    </node>
+    <node id="PWRSOL002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL002</data>
+    </node>
+    <node id="PWRSOL003">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL003</data>
+    </node>
+    <node id="PWRSOL004">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL004</data>
+    </node>
+    <node id="PWRSOL005">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL005</data>
+    </node>
+    <node id="PWRSOL006">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL006</data>
+    </node>
+    <node id="PWRSOL007">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL007</data>
+    </node>
+    <node id="PWRSOL008">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL008</data>
+    </node>
+    <node id="PWRSOL009">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL009</data>
+    </node>
+    <node id="PWRSOL010">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL010</data>
+    </node>
+    <node id="PWRSOL011">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL011</data>
+    </node>
+    <node id="PWRSOL012">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL012</data>
+    </node>
+    <node id="PWRSOL013">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL013</data>
+    </node>
+    <node id="PWRSOL014">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL014</data>
+    </node>
+    <node id="PWRSOL015">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL015</data>
+    </node>
+    <node id="PWRSOL016">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL016</data>
+    </node>
+    <node id="PWRSOL101">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRSOL101</data>
+    </node>
+    <node id="PWRTRN">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRTRN</data>
+    </node>
+    <node id="PWRURN001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRURN001</data>
+    </node>
+    <node id="PWRURN002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRURN002</data>
+    </node>
+    <node id="PWRURN003">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRURN003</data>
+    </node>
+    <node id="PWRWND001">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND001</data>
+    </node>
+    <node id="PWRWND002">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND002</data>
+    </node>
+    <node id="PWRWND003">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND003</data>
+    </node>
+    <node id="PWRWND004">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND004</data>
+    </node>
+    <node id="PWRWND005">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND005</data>
+    </node>
+    <node id="PWRWND006">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND006</data>
+    </node>
+    <node id="PWRWND007">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND007</data>
+    </node>
+    <node id="PWRWND008">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND008</data>
+    </node>
+    <node id="PWRWND009">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND009</data>
+    </node>
+    <node id="PWRWND010">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND010</data>
+    </node>
+    <node id="PWRWND011">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND011</data>
+    </node>
+    <node id="PWRWND012">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND012</data>
+    </node>
+    <node id="PWRWND013">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND013</data>
+    </node>
+    <node id="PWRWND014">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND014</data>
+    </node>
+    <node id="PWRWND015">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND015</data>
+    </node>
+    <node id="PWRWND016">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND016</data>
+    </node>
+    <node id="PWRWND017">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND017</data>
+    </node>
+    <node id="PWRWND018">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND018</data>
+    </node>
+    <node id="PWRWND019">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND019</data>
+    </node>
+    <node id="PWRWND020">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND020</data>
+    </node>
+    <node id="PWRWND021">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND021</data>
+    </node>
+    <node id="PWRWND022">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND022</data>
+    </node>
+    <node id="PWRWND023">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND023</data>
+    </node>
+    <node id="PWRWND024">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND024</data>
+    </node>
+    <node id="PWRWND025">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND025</data>
+    </node>
+    <node id="PWRWND026">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND026</data>
+    </node>
+    <node id="PWRWND027">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND027</data>
+    </node>
+    <node id="PWRWND028">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND028</data>
+    </node>
+    <node id="PWRWND101">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PWRWND101</data>
+    </node>
+    <node id="BESS001">
+      <data key="d0">storage</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">triangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">BESS001</data>
+    </node>
+    <node id="PHS001">
+      <data key="d0">storage</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">triangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PHS001</data>
+    </node>
+    <node id="PHS002">
+      <data key="d0">storage</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">triangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">PHS002</data>
+    </node>
+    <node id="CO2">
+      <data key="d0">emission</data>
+      <data key="d1">grey</data>
+      <data key="d2">circle</data>
+      <data key="d3">filled</data>
+      <data key="d4">CO2</data>
+    </node>
+    <node id="AnnualDemand">
+      <data key="d0">demand</data>
+      <data key="d1">green</data>
+      <data key="d4">AccumulatedAnnualDemand</data>
+      <data key="d3">filled</data>
+    </node>
+    <node id="ELC001" />
+    <node id="ELC003" />
+    <node id="BIO" />
+    <node id="COA" />
+    <node id="ELC002" />
+    <node id="GEO" />
+    <node id="HFONAI" />
+    <node id="HFOMOM" />
+    <node id="HYD" />
+    <node id="LFOELD" />
+    <node id="NGS" />
+    <node id="SOL" />
+    <node id="URN" />
+    <node id="WND" />
+    <node id="COMELC" />
+    <node id="INDELC" />
+    <node id="RESELC" />
+    <node id="COADOM" />
+    <edge source="BACKSTOP" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="BESS_TECH" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="BESS_TECH" target="BESS001">
+      <data key="d7">0.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="DEMCOMELC" target="COMELC">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="DEMINDELC" target="INDELC">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="DEMRESELC" target="RESELC">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="IMPBIO" target="BIO">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="IMPCOA" target="COA">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="IMPELC001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="IMPELC002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="IMPHFOMOM" target="HFOMOM">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="IMPHFONAI" target="HFONAI">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="IMPLFOELD" target="LFOELD">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="IMPNGS" target="NGS">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="IMPURN" target="URN">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="MINBIO" target="BIO">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="MINCOA" target="COADOM">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="MINGEO" target="GEO">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="MINHYD" target="HYD">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="MINSOL" target="SOL">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="MINWND" target="WND">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRBIO001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRBIO001" target="CO2">
+      <data key="d8">0.166</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRCOA001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRCOA001" target="CO2">
+      <data key="d8">0.245</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRCOA002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRCOA002" target="CO2">
+      <data key="d8">0.245</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRCOA003" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRCOA003" target="CO2">
+      <data key="d8">0.245</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRDIST" target="ELC003">
+      <data key="d5">0.944</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO003" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO004" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO005" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO006" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO007" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO008" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO009" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO010" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO011" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO012" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO013" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO014" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO015" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO016" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO017" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO018" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO019" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO020" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO021" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO022" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO023" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO024" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO025" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO026" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO027" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO028" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO029" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO030" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO031" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO032" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO033" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO034" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO035" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO036" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO037" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO038" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO039" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO040" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO041" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO042" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO043" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO044" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO045" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO046" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO047" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO048" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO049" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO050" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO051" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO101" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRGEO102" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO001" target="CO2">
+      <data key="d8">0.191</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO002" target="CO2">
+      <data key="d8">0.189</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO003" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO003" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO004" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO004" target="CO2">
+      <data key="d8">0.177</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO005" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO005" target="CO2">
+      <data key="d8">0.185</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO006" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO006" target="CO2">
+      <data key="d8">0.169</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO007" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO007" target="CO2">
+      <data key="d8">0.172</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO008" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO008" target="CO2">
+      <data key="d8">0.181</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO009" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHFO009" target="CO2">
+      <data key="d8">0.172</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD003" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD004" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD005" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD006" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD007" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD008" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD009" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD010" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD011" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD012" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD013" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD014" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD015" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD016" target="ELC003">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRHYD101" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRLFO001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRLFO001" target="CO2">
+      <data key="d8">0.252</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRLFO002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRLFO002" target="CO2">
+      <data key="d8">0.252</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRLFO003" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRLFO003" target="CO2">
+      <data key="d8">0.204</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS001" target="CO2">
+      <data key="d8">0.166</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS002" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS003" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS003" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS004" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS004" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS005" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS005" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS006" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS006" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS007" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS007" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS008" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS008" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS009" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS009" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS010" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS010" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS011" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS011" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS012" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS012" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS013" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS013" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS014" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS014" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS015" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS015" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS016" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS016" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS017" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS017" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS018" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRNGS018" target="CO2">
+      <data key="d8">0.183</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRPHS001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRPHS001" target="PHS001">
+      <data key="d7">0.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRPHS002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRPHS002" target="PHS002">
+      <data key="d7">0.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL003" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL004" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL005" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL006" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL007" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL008" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL009" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL010" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL011" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL012" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL013" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL014" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL015" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL016" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRSOL101" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRTRN" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRTRN" target="ELC002">
+      <data key="d5">0.9566</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRURN001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRURN002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRURN003" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND001" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND002" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND003" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND004" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND005" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND006" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND007" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND008" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND009" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND010" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND011" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND012" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND013" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND014" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND015" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND016" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND017" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND018" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND019" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND020" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND021" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND022" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND023" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND024" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND025" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND026" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND027" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND028" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PWRWND101" target="ELC001">
+      <data key="d5">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="BESS001" target="BESS_TECH">
+      <data key="d9">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PHS001" target="PWRPHS001">
+      <data key="d9">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="PHS002" target="PWRPHS002">
+      <data key="d9">1.0</data>
+      <data key="d6">none</data>
+    </edge>
+    <edge source="ELC001" target="BESS_TECH">
+      <data key="d7">1.0</data>
+      <data key="d10">ELC001</data>
+    </edge>
+    <edge source="ELC001" target="EXPELC">
+      <data key="d7">1.0</data>
+      <data key="d10">ELC001</data>
+    </edge>
+    <edge source="ELC001" target="PWRPHS001">
+      <data key="d7">1.0</data>
+      <data key="d10">ELC001</data>
+    </edge>
+    <edge source="ELC001" target="PWRPHS002">
+      <data key="d7">1.0</data>
+      <data key="d10">ELC001</data>
+    </edge>
+    <edge source="ELC001" target="PWRTRN">
+      <data key="d7">1.0</data>
+      <data key="d10">ELC001</data>
+    </edge>
+    <edge source="ELC003" target="DEMCOMELC">
+      <data key="d7">1.0</data>
+      <data key="d10">ELC003</data>
+    </edge>
+    <edge source="ELC003" target="DEMINDELC">
+      <data key="d7">1.0</data>
+      <data key="d10">ELC003</data>
+    </edge>
+    <edge source="ELC003" target="DEMRESELC">
+      <data key="d7">1.0</data>
+      <data key="d10">ELC003</data>
+    </edge>
+    <edge source="BIO" target="PWRBIO001">
+      <data key="d7">2.86</data>
+      <data key="d10">BIO</data>
+    </edge>
+    <edge source="COA" target="PWRCOA001">
+      <data key="d7">2.59</data>
+      <data key="d10">COA</data>
+    </edge>
+    <edge source="COA" target="PWRCOA002">
+      <data key="d7">2.59</data>
+      <data key="d10">COA</data>
+    </edge>
+    <edge source="COA" target="PWRCOA003">
+      <data key="d7">2.59</data>
+      <data key="d10">COA</data>
+    </edge>
+    <edge source="ELC002" target="PWRDIST">
+      <data key="d7">1.0</data>
+      <data key="d10">ELC002</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO001">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO002">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO003">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO004">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO005">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO006">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO007">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO008">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO009">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO010">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO011">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO012">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO013">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO014">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO015">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO016">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO017">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO018">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO019">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO020">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO021">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO022">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO023">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO024">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO025">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO026">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO027">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO028">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO029">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO030">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO031">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO032">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO033">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO034">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO035">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO036">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO037">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO038">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO039">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO040">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO041">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO042">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO043">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO044">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO045">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO046">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO047">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO048">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO049">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO050">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO051">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO101">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="GEO" target="PWRGEO102">
+      <data key="d7">2.97</data>
+      <data key="d10">GEO</data>
+    </edge>
+    <edge source="HFONAI" target="PWRHFO001">
+      <data key="d7">2.6</data>
+      <data key="d10">HFONAI</data>
+    </edge>
+    <edge source="HFONAI" target="PWRHFO002">
+      <data key="d7">2.58</data>
+      <data key="d10">HFONAI</data>
+    </edge>
+    <edge source="HFONAI" target="PWRHFO007">
+      <data key="d7">2.35</data>
+      <data key="d10">HFONAI</data>
+    </edge>
+    <edge source="HFONAI" target="PWRHFO008">
+      <data key="d7">2.48</data>
+      <data key="d10">HFONAI</data>
+    </edge>
+    <edge source="HFONAI" target="PWRHFO009">
+      <data key="d7">2.35</data>
+      <data key="d10">HFONAI</data>
+    </edge>
+    <edge source="HFOMOM" target="PWRHFO003">
+      <data key="d7">2.5</data>
+      <data key="d10">HFOMOM</data>
+    </edge>
+    <edge source="HFOMOM" target="PWRHFO004">
+      <data key="d7">2.41</data>
+      <data key="d10">HFOMOM</data>
+    </edge>
+    <edge source="HFOMOM" target="PWRHFO005">
+      <data key="d7">2.52</data>
+      <data key="d10">HFOMOM</data>
+    </edge>
+    <edge source="HFOMOM" target="PWRHFO006">
+      <data key="d7">2.31</data>
+      <data key="d10">HFOMOM</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD001">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD002">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD003">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD004">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD005">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD006">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD007">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD008">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD009">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD010">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD011">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD012">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD013">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD014">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD015">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD016">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="HYD" target="PWRHYD101">
+      <data key="d7">1.0</data>
+      <data key="d10">HYD</data>
+    </edge>
+    <edge source="LFOELD" target="PWRLFO001">
+      <data key="d7">3.43</data>
+      <data key="d10">LFOELD</data>
+    </edge>
+    <edge source="LFOELD" target="PWRLFO002">
+      <data key="d7">3.43</data>
+      <data key="d10">LFOELD</data>
+    </edge>
+    <edge source="LFOELD" target="PWRLFO003">
+      <data key="d7">2.78</data>
+      <data key="d10">LFOELD</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS001">
+      <data key="d7">1.78</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS002">
+      <data key="d7">1.99</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS003">
+      <data key="d7">1.99</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS004">
+      <data key="d7">2.96</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS005">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS006">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS007">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS008">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS009">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS010">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS011">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS012">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS013">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS014">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS015">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS016">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS017">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="NGS" target="PWRNGS018">
+      <data key="d7">3.51</data>
+      <data key="d10">NGS</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL001">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL002">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL003">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL004">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL005">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL006">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL007">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL008">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL009">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL010">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL011">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL012">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL013">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL014">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL015">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL016">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="SOL" target="PWRSOL101">
+      <data key="d7">1.0</data>
+      <data key="d10">SOL</data>
+    </edge>
+    <edge source="URN" target="PWRURN001">
+      <data key="d7">3.22</data>
+      <data key="d10">URN</data>
+    </edge>
+    <edge source="URN" target="PWRURN002">
+      <data key="d7">3.22</data>
+      <data key="d10">URN</data>
+    </edge>
+    <edge source="URN" target="PWRURN003">
+      <data key="d7">3.22</data>
+      <data key="d10">URN</data>
+    </edge>
+    <edge source="WND" target="PWRWND001">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND002">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND003">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND004">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND005">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND006">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND007">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND008">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND009">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND010">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND011">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND012">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND013">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND014">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND015">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND016">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND017">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND018">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND019">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND020">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND021">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND022">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND023">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND024">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND025">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND026">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND027">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND028">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="WND" target="PWRWND101">
+      <data key="d7">1.0</data>
+      <data key="d10">WND</data>
+    </edge>
+    <edge source="COMELC" target="AnnualDemand">
+      <data key="d11">30.0739</data>
+      <data key="d10">COMELC</data>
+    </edge>
+    <edge source="INDELC" target="AnnualDemand">
+      <data key="d11">103.6063</data>
+      <data key="d10">INDELC</data>
+    </edge>
+    <edge source="RESELC" target="AnnualDemand">
+      <data key="d11">66.2618</data>
+      <data key="d10">RESELC</data>
+    </edge>
+  </graph>
+</graphml>

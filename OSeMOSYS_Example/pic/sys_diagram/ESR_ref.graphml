@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="Demand" attr.type="double" />
+  <key id="d12" for="edge" attr.name="xlabel" attr.type="string" />
+  <key id="d11" for="edge" attr.name="ouput_ratio" attr.type="double" />
+  <key id="d10" for="edge" attr.name="input_ratio" attr.type="double" />
+  <key id="d9" for="edge" attr.name="emission_ratio" attr.type="double" />
+  <key id="d8" for="edge" attr.name="dir" attr.type="string" />
+  <key id="d7" for="edge" attr.name="output_ratio" attr.type="double" />
+  <key id="d6" for="node" attr.name="width" attr.type="double" />
+  <key id="d5" for="node" attr.name="height" attr.type="double" />
+  <key id="d4" for="node" attr.name="label" attr.type="string" />
+  <key id="d3" for="node" attr.name="style" attr.type="string" />
+  <key id="d2" for="node" attr.name="shape" attr.type="string" />
+  <key id="d1" for="node" attr.name="fillcolor" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="genOilCT">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">genOilCT</data>
+    </node>
+    <node id="genNGCC">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">genNGCC</data>
+    </node>
+    <node id="genWind">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">genWind</data>
+    </node>
+    <node id="genPumpStr">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">genPumpStr</data>
+    </node>
+    <node id="DAM">
+      <data key="d0">storage</data>
+      <data key="d1">lightblue</data>
+      <data key="d2">triangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">DAM</data>
+    </node>
+    <node id="genCoal">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">genCoal</data>
+    </node>
+    <node id="genNuclear">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">genNuclear</data>
+    </node>
+    <node id="genHydro">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">genHydro</data>
+    </node>
+    <node id="UnMet">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">UnMet</data>
+    </node>
+    <node id="IMPGAS">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPGAS</data>
+    </node>
+    <node id="IMPHCO">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPHCO</data>
+    </node>
+    <node id="IMPURN">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPURN</data>
+    </node>
+    <node id="IMPOIL">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">IMPOIL</data>
+    </node>
+    <node id="El_TechDR">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">El_TechDR</data>
+    </node>
+    <node id="El_TechDL">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">El_TechDL</data>
+    </node>
+    <node id="El_TechDO">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">El_TechDO</data>
+    </node>
+    <node id="El_TechDC">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">El_TechDC</data>
+    </node>
+    <node id="Ot_Tech">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">Ot_Tech</data>
+    </node>
+    <node id="LRef">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">LRef</data>
+    </node>
+    <node id="TransM">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">TransM</data>
+    </node>
+    <node id="RIV">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">RIV</data>
+    </node>
+    <node id="WIN">
+      <data key="d0">technology</data>
+      <data key="d1">yellow</data>
+      <data key="d2">rectangle</data>
+      <data key="d3">filled</data>
+      <data key="d4">WIN</data>
+    </node>
+    <node id="priWIND">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="priNGAS">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="secElec1">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="secElec2">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="priHCO">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="priHYD">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="priOIL">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="priURN">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="finElecDR">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="finElecDL">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="finElecDO">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="finElecDC">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="finOtherD">
+      <data key="d0">fuel</data>
+      <data key="d3">filled</data>
+      <data key="d2">circle</data>
+      <data key="d5">0.1</data>
+      <data key="d6">0.1</data>
+      <data key="d4" />
+    </node>
+    <node id="CO2">
+      <data key="d0">emission</data>
+      <data key="d1">grey</data>
+      <data key="d2">circle</data>
+      <data key="d3">filled</data>
+      <data key="d4">CO2</data>
+    </node>
+    <node id="NOX">
+      <data key="d0">emission</data>
+      <data key="d1">grey</data>
+      <data key="d2">circle</data>
+      <data key="d3">filled</data>
+      <data key="d4">NOX</data>
+    </node>
+    <node id="AnnualDemand">
+      <data key="d0">demand</data>
+      <data key="d1">green</data>
+      <data key="d4">AccumulatedAnnualDemand</data>
+      <data key="d3">filled</data>
+    </node>
+    <edge source="genOilCT" target="secElec1">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genOilCT" target="CO2">
+      <data key="d9">0.0729</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genOilCT" target="NOX">
+      <data key="d9">0.0002</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genNGCC" target="secElec1">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genNGCC" target="CO2">
+      <data key="d9">0.0512</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genNGCC" target="NOX">
+      <data key="d9">3e-05</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genWind" target="secElec1">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genPumpStr" target="secElec1">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genPumpStr" target="DAM">
+      <data key="d10">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="DAM" target="genPumpStr">
+      <data key="d11">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genCoal" target="secElec1">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genCoal" target="CO2">
+      <data key="d9">0.0882</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genCoal" target="NOX">
+      <data key="d9">0.0002</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genNuclear" target="secElec1">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="genHydro" target="secElec1">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="UnMet" target="secElec1">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="IMPGAS" target="priNGAS">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="IMPHCO" target="priHCO">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="IMPURN" target="priURN">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="IMPOIL" target="priOIL">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="El_TechDR" target="finElecDR">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="El_TechDL" target="finElecDL">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="El_TechDO" target="finElecDO">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="El_TechDC" target="finElecDC">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="Ot_Tech" target="finOtherD">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="LRef" target="priOIL">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="TransM" target="secElec2">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="RIV" target="priHYD">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="WIN" target="priWIND">
+      <data key="d7">1.0</data>
+      <data key="d8">none</data>
+    </edge>
+    <edge source="priNGAS" target="genNGCC">
+      <data key="d10">2.083</data>
+      <data key="d12">priNGAS</data>
+    </edge>
+    <edge source="secElec1" target="TransM">
+      <data key="d10">1.111</data>
+      <data key="d12">secElec1</data>
+    </edge>
+    <edge source="secElec2" target="El_TechDR">
+      <data key="d10">1.5</data>
+      <data key="d12">secElec2</data>
+    </edge>
+    <edge source="secElec2" target="El_TechDL">
+      <data key="d10">1.9</data>
+      <data key="d12">secElec2</data>
+    </edge>
+    <edge source="secElec2" target="El_TechDO">
+      <data key="d10">1.5</data>
+      <data key="d12">secElec2</data>
+    </edge>
+    <edge source="secElec2" target="El_TechDC">
+      <data key="d10">1.6</data>
+      <data key="d12">secElec2</data>
+    </edge>
+    <edge source="secElec2" target="genPumpStr">
+      <data key="d10">1.3889</data>
+      <data key="d12">secElec2</data>
+    </edge>
+    <edge source="priHCO" target="genCoal">
+      <data key="d10">2.857</data>
+      <data key="d12">priHCO</data>
+    </edge>
+    <edge source="priHYD" target="genHydro">
+      <data key="d10">1.0</data>
+      <data key="d12">priHYD</data>
+    </edge>
+    <edge source="priOIL" target="Ot_Tech">
+      <data key="d10">1.5</data>
+      <data key="d12">priOIL</data>
+    </edge>
+    <edge source="priOIL" target="genOilCT">
+      <data key="d10">4.0</data>
+      <data key="d12">priOIL</data>
+    </edge>
+    <edge source="priURN" target="genNuclear">
+      <data key="d10">1.0</data>
+      <data key="d12">priURN</data>
+    </edge>
+    <edge source="finElecDR" target="AnnualDemand">
+      <data key="d13">147.0</data>
+      <data key="d12">finElecDR</data>
+    </edge>
+    <edge source="finElecDL" target="AnnualDemand">
+      <data key="d13">209.0</data>
+      <data key="d12">finElecDL</data>
+    </edge>
+    <edge source="finElecDO" target="AnnualDemand">
+      <data key="d13">70.0</data>
+      <data key="d12">finElecDO</data>
+    </edge>
+    <edge source="finElecDC" target="AnnualDemand">
+      <data key="d13">64.0</data>
+      <data key="d12">finElecDC</data>
+    </edge>
+    <edge source="finOtherD" target="AnnualDemand">
+      <data key="d13">0.0</data>
+      <data key="d12">finOtherD</data>
+    </edge>
+  </graph>
+</graphml>
