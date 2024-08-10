@@ -1,0 +1,54 @@
+
+#############################################
+####     Capital Cost Learning Curve     ####
+#############################################
+# Add a sets for the intervals
+set INTERVAL_31;
+
+# Add the parameters for the learning curve
+param IntervalUpperBoundLearningbyDoing {r in REGION, t in TECHNOLOGY, i in INTERVAL_31};
+param IntervalLowerBoundLearningbyDoing {r in REGION, t in TECHNOLOGY, i in INTERVAL_31};
+param ParametersAlphLearningbyDoing {r in REGION, t in TECHNOLOGY, i in INTERVAL_31};
+param ParametersBetaLearningbyDoing {r in REGION, t in TECHNOLOGY, i in INTERVAL_31};
+
+# Add the variables for the intervals
+var IntervalBinary {r in REGION, t in TECHNOLOGY, i in INTERVAL_31, y in YEAR} binary;
+var CumulativeCapacitybyPortion{r in REGION, t in TECHNOLOGY, i in INTERVAL_31,y in YEAR}>=0;
+var CumulativeCapitalCost {r in REGION, t in TECHNOLOGY, y in YEAR}>=0;
+
+# Used to determine the IntervalBinary, a set that only the ith interval is 1 and the rest are 0
+s.t. add_interval_sum{r in REGION, t in TECHNOLOGY, y in YEAR:(t in {'PWRWND101','PWRSOL101'})} : 
+    sum{i in INTERVAL_31} (IntervalBinary[r,t,i,y])=1;
+s.t. add_interval_lower_limit{r in REGION, t in TECHNOLOGY, y in YEAR:(t in {'PWRWND101','PWRSOL101'})} : 
+    sum{i in INTERVAL_31} (IntervalLowerBoundLearningbyDoing[r,t,i] * IntervalBinary[r,t,i,y]) <= TotalCapacityAnnual[r,t,y];
+s.t. add_interval_upper_limit{r in REGION, t in TECHNOLOGY, y in YEAR:(t in {'PWRWND101','PWRSOL101'})} : 
+    sum{i in INTERVAL_31} (IntervalUpperBoundLearningbyDoing[r,t,i] * IntervalBinary[r,t,i,y]) >= TotalCapacityAnnual[r,t,y];
+
+# Used to determine the CumulativeCapacitybyPortion, a set that only the ith interval is the TotalCapacityAnnual and the rest are 0
+s.t. add_cumulative_capacity{r in REGION, t in TECHNOLOGY, y in YEAR:(t in {'PWRWND101','PWRSOL101'})} :  
+    sum{i in INTERVAL_31} (CumulativeCapacitybyPortion[r,t,i,y]) = TotalCapacityAnnual[r,t,y];
+s.t. add_cumulative_capacity_lower_limit{r in REGION, t in TECHNOLOGY, i in INTERVAL_31, y in YEAR:(t in {'PWRWND101','PWRSOL101'})} : 
+    IntervalLowerBoundLearningbyDoing[r,t,i] * IntervalBinary[r,t,i,y] <= CumulativeCapacitybyPortion[r,t,i,y];
+s.t. add_cumulative_capacity_upper_limit{r in REGION, t in TECHNOLOGY, i in INTERVAL_31, y in YEAR:(t in {'PWRWND101','PWRSOL101'})} : 
+    IntervalUpperBoundLearningbyDoing[r,t,i] * IntervalBinary[r,t,i,y] >= CumulativeCapacitybyPortion[r,t,i,y];
+
+# Total Cumulated Cost
+s.t. add_cumulative_invesment_cost{r in REGION, t in TECHNOLOGY, y in YEAR:(t in {'PWRWND101','PWRSOL101'})}: 
+    CumulativeCapitalCost[r,t,y] = sum{i in INTERVAL_31} ((IntervalBinary[r,t,i,y]*ParametersAlphLearningbyDoing[r,t,i]) + (CumulativeCapacitybyPortion[r,t,i,y]*ParametersBetaLearningbyDoing[r,t,i]));
+# Annual Capital Cost
+s.t. add_CC1_UndiscountedCapitalInvestment{r in REGION, t in TECHNOLOGY, y in YEAR:(y > min{yy in YEAR} yy)&&(t in {'PWRWND101','PWRSOL101'})}: 
+    #CapitalCost[r,t,y] * NewCapacity[r,t,y] = CapitalInvestment[r,t,y];
+    CapitalInvestment[r,t,y] =  CumulativeCapitalCost[r,t,y] - CumulativeCapitalCost[r,t,y-1];
+
+#############################################
+####     Iterative Gorwth Constraint     ####
+#############################################
+
+# Add the parameters for the growth constraint
+param TotalAnnualMaxCapacityGrowth{r in REGION, t in TECHNOLOGY};
+
+#The constraint for the iterative growth of the capacity
+s.t. NCC3_TotalAnnualNewCapacityGrowthConstraint{r in REGION, t in TECHNOLOGY, y in YEAR:(y > min{yy in YEAR} yy)&&(t in {'PWRGEO101', 'PWRHYD101', 'PWRSOL101', 'PWRWND101'})}:
+    NewCapacity[r,t,y] <= TotalAnnualMaxCapacityGrowth[r,t] * TotalCapacityAnnual[r,t,y-1] + 0.01;
+
+
